@@ -1,0 +1,232 @@
+[
+  {
+    "question": "Esimene laagrisuvi oli aastal",
+    "answers": ["1998", "2000", "1999", "1997"],
+    "answerIndex": 3
+  },
+  {
+    "question": "Mis on laagriarsti lemmik abivahend",
+    "answers": ["Kirves", "Haamer", "Saag", "Laste pisarad"],
+    "answerIndex": 1
+  },
+  {
+    "question": "MRSC tähendus",
+    "answers": [
+      "Maritime Surveillance Centre",
+      "Maritime Rescue Sub-Centre",
+      "Maritime Rescue Surveillance Centre",
+      "Maritime Rescue & Search Centre"
+    ],
+    "answerIndex": 2
+  },
+  {
+    "question": "Mis aastal valmis Merelaagri uus koduleht",
+    "answers": ["2019", "2018", "2021", "2020"],
+    "answerIndex": 4
+  },
+  {
+    "question": "JRCC Tallinna telefoninumber",
+    "answers": ["169 1224", "619 2114", "619 1224", "169 2114"],
+    "answerIndex": 3
+  },
+  {
+    "question": "MRSC Kuressaare telefoninumber",
+    "answers": ["440 1313", "400 1300", "444 1303", "440 1300"],
+    "answerIndex": 4
+  },
+  {
+    "question": "Eia on",
+    "answers": ["Luts", "Laser", "Luts II", "RS Aero"],
+    "answerIndex": 3
+  },
+  {
+    "question": "Vangliin inglise keeles",
+    "answers": ["Tainter line", "Painter line", "Tainter rope", "Leinter line"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Rannamaja ehitati ümber aastal",
+    "answers": ["2018", "2019", "2017", "2016"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Levinuim hüdrostaate tootev firma",
+    "answers": ["Ikaros", "Hammar", "Albatross", "Viking"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Laagrisärgi värv aastal 2014",
+    "answers": ["Kollane", "Oranž", "Punane", "Sinine"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Merevalvekeskus asub",
+    "answers": ["Tallinnas", "Kuressaares", "Paldiskis", "Haapsalus"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Esimene ehitis laagris oli",
+    "answers": ["Rannamaja", "Suurlaev", "Küna", "Vetsud"],
+    "answerIndex": 4
+  },
+  {
+    "question": "JRCC tähendab",
+    "answers": [
+      "Joint Rescue and Command Centre",
+      "Joint Resolve and Coordination Centre",
+      "Joint Rescue and Coordination Centre",
+      "Joint Rescue and Central Command"
+    ],
+    "answerIndex": 3
+  },
+  {
+    "question": "Standard signaalrakett põleb",
+    "answers": ["30s", "40s", "45s", "60s"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Värskeim optimist laagris on",
+    "answers": ["Lea", "Epp", "Dea", "Ave"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Epu teine nimi",
+    "answers": ["Yru", "Iru", "Iyru", "Yiru"],
+    "answerIndex": 3
+  },
+  {
+    "question": "Mis puri on \"genu\"",
+    "answers": ["Gennaker", "Genoa", "Spinnaker", "Groot"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Dea algustäht on",
+    "answers": ["D", "Vastus 'A'", "Vastus 'D'", "A"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Mis sõlmekategoorias on paalsteek",
+    "answers": ["Aasad", "Steegid", "Silmused", "Ühendavad sõlmed"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Sinise lutsu nimi",
+    "answers": ["Lii", "Mai", "Kai", "Ene"],
+    "answerIndex": 3
+  },
+  {
+    "question": "Muhu merelaager lõpetas selle tõttu tegevuse",
+    "answers": [
+      "Sõjaväebaasi ehitamine",
+      "Eelarve ületamine",
+      "Laevahukk",
+      "Maade tagastamine"
+    ],
+    "answerIndex": 4
+  },
+  {
+    "question": "Marke kasutatakse otste",
+    "answers": [
+      "Lõpetamiseks",
+      "Ühendamiseks",
+      "Kinnitamiseks",
+      "Libestamiseks"
+    ],
+    "answerIndex": 1
+  },
+  {
+    "question": "Kes neist pole olnud merelaagri sponsor",
+    "answers": ["Baltic Workboats", "Viking", "Emsa", "Comet"],
+    "answerIndex": 4
+  },
+  {
+    "question": "Punane putka lammutati aastal",
+    "answers": ["2019", "2020", "2021", "2018"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Mereleksikoni autor on",
+    "answers": [
+      "Navigare OÜ",
+      "Merendusterminoloogia-komisjon",
+      "Eesti Mereakadeemia",
+      "Eesti Entsüklopeediakirjastus"
+    ],
+    "answerIndex": 4
+  },
+  {
+    "question": "Leho esimene aasta juhatajana oli",
+    "answers": ["2011", "2012", "2013", "2014"],
+    "answerIndex": 3
+  },
+  {
+    "question": "Lea toodi laagrisse aastal",
+    "answers": ["2016", "2017", "2018", "2015"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Anu eelmine nimi oli",
+    "answers": ["Liblikas", "Parm", "Sääsk", "Herilane"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Küna lammutati aastal",
+    "answers": ["2013", "2012", "2014", "2015"],
+    "answerIndex": 3
+  },
+  {
+    "question": "Simiste merelaager lõpetas tegevuse aastal",
+    "answers": ["1989", "1998", "1972", "1981"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Mitu juuksevärvi on Taanielil laagris olles olnud",
+    "answers": ["2", "3", "4", "5"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Mitu kellalööki on häirekell",
+    "answers": ["1+5634", "1+5432", "1+6584", "1+5432"],
+    "answerIndex": 1
+  },
+  {
+    "question": "Mis aastast on Krissu esimene laagrisärk",
+    "answers": ["2009", "2010", "2011", "2012"],
+    "answerIndex": 4
+  },
+  {
+    "question": "Mis on Martini purjelaua purje suurus",
+    "answers": ["5.6m^2", "8.5m^2", "Martinil on kaks purje", "4.1m^2"],
+    "answerIndex": 3
+  },
+  {
+    "question": "Mis kell tõusevad kasvatajad",
+    "answers": ["8:25", "Pool tundi enne lapsi", "7:30", "8"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Mis aastal ostis Ahto jäätisemasina",
+    "answers": ["2019", "2020", "2018", "2021"],
+    "answerIndex": 4
+  },
+  {
+    "question": "Mis aastal valiti merelaager aasta noortelaagriks",
+    "answers": ["2017", "2018", "2016", "2019"],
+    "answerIndex": 2
+  },
+  {
+    "question": "Kuidas saadakse abikasvatajaks",
+    "answers": [
+      "Tutvuste kaudu",
+      "Võites selle mängu",
+      "Pugedes",
+      "Ei tea isegi"
+    ],
+    "answerIndex": 4
+  },
+  {
+    "question": "Kes projekteeris uue sauna",
+    "answers": ["Saunapoisid OÜ", "Ahto", "Lempa (Ahto vend)", "Saunamaailm"],
+    "answerIndex": 2
+  }
+]
