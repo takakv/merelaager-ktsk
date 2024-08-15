@@ -4,6 +4,7 @@ import AnswerBox from "./AnswerBox";
 
 interface AnswerGridProps {
   questionIndex: number;
+  answerIndex: number;
   answers: string[];
   halfLifelineCount: number;
   onHalfLifelineClick: () => void;
@@ -15,6 +16,7 @@ const initialState = [false, false, false, false];
 
 const AnswerGrid = ({
   questionIndex,
+  answerIndex,
   answers,
   halfLifelineCount,
   onHalfLifelineClick,
@@ -58,7 +60,8 @@ const AnswerGrid = ({
           onClick={() => onClick()}
           key={k}
           questionIndex={questionIndex}
-          index={k}
+          answerIndex={k}
+          isCorrect={k === answerIndex}
           answer={answers[k]}
           isVisible={visibleStates[k]}
         />

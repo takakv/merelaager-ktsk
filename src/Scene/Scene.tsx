@@ -11,7 +11,9 @@ import "./Scene.scss";
 
 import newSound from "../assets/sounds/std_new_question.mp3";
 import thinkSound from "../assets/sounds/std_think.mp3";
-import questions from "../assets/qna.json";
+import all_questions from "../assets/qna.json";
+
+const questions = all_questions.filter((q) => q.enabled);
 
 const GameContext = createContext(true);
 
@@ -82,6 +84,7 @@ const Scene = () => {
           <AnswerGrid
             onClick={() => onClick()}
             questionIndex={qIndex}
+            answerIndex={questions[qIndex].answerIndex - 1}
             answers={questions[qIndex].answers}
             halfLifelineCount={halfLifelineCount}
             onHalfLifelineClick={onHalfLifelineClick}

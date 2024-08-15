@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import useSound from "use-sound";
-import { useQuestionStatus } from "./questions";
 
 import correctSound from "../assets/sounds/correct.mp3";
 import incorrectSound from "../assets/sounds/incorrect.mp3";
@@ -8,7 +7,8 @@ import answerBox from "../assets/images/answer_box.png";
 
 interface AnswerBoxProps {
   questionIndex: number;
-  index: number;
+  isCorrect: boolean;
+  answerIndex: number;
   answer: string;
   isVisible: boolean;
   halfLifelineCount: number;
@@ -18,7 +18,8 @@ interface AnswerBoxProps {
 
 const AnswerBox = ({
   questionIndex,
-  index,
+  isCorrect,
+  answerIndex,
   answer,
   isVisible,
   halfLifelineCount,
@@ -29,9 +30,6 @@ const AnswerBox = ({
   const [playWinSound] = useSound(correctSound);
 
   const [className, setClassName] = useState("");
-
-  const isCorrect = useQuestionStatus(questionIndex, index);
-
   useEffect(() => {
     setClassName("AnswerBox");
   }, [questionIndex]);
@@ -42,13 +40,12 @@ const AnswerBox = ({
       setClassName(`${className} dimmed`);
       return;
     }
-    if (isCorrect === -1) return;
     onClick();
 
-    if (isCorrect === 1) {
+    if (isCorrect) {
       setClassName(`${className} correct`);
       playWinSound();
-    } else if (isCorrect === 0) {
+    } else {
       setClassName(`${className} incorrect`);
       playLoseSound();
     }
@@ -56,7 +53,7 @@ const AnswerBox = ({
 
   return (
     <div className={className} onClick={() => handleOnClick()}>
-      <span>{String.fromCharCode("A".charCodeAt(0) + index)}</span>
+      <span>{String.fromCharCode("A".charCodeAt(0) + answerIndex)}</span>
       <p className="answer">{isVisible ? answer : ""}</p>
       <img src={answerBox} alt="Vastus kast" />
     </div>
