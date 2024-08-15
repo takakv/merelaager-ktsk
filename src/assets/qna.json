@@ -5,6 +5,11 @@
     "answerIndex": 3
   },
   {
+    "question": "Mis aastal asutati MTÜ Noorte Mereklubi",
+    "answers": ["1999", "1998", "1988", "2002"],
+    "answerIndex": 2
+  },
+  {
     "question": "Mis on laagriarsti lemmik abivahend",
     "answers": ["Kirves", "Haamer", "Saag", "Laste pisarad"],
     "answerIndex": 1

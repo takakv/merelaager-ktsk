@@ -17,29 +17,37 @@ const GameContext = createContext(true);
 
 const Scene = () => {
   const [qIndex, setQIndex] = useState(0);
-  const [isInitial, setIsInitial] = useState(true);
   const [isFirstClick, setIsFirstClick] = useState(true);
+
+  const [startThinkSound, setStartThinkSound] = useState(false);
 
   // Lifeline stuff
   const [halfLifelineIsUsed, setHalfLifelineIsUsed] = useState(0);
   const [halfLifelineCount, setHalfLifelineCount] = useState(-1);
 
   const [playNewSound] = useSound(newSound, { interrupt: false });
-  const [playThinkSound, { stop }] = useSound(thinkSound, { interrupt: true });
+  const [playThinkSound, thinkSoundExposedData] = useSound(thinkSound, {
+    interrupt: true,
+    onend: () => {
+      // Loop the thinking music.
+      setStartThinkSound(true);
+    },
+  });
 
   useEffect(() => {
-    console.log("Mounted: 'Scene'");
-  }, []);
-
-  const nextQuestion = () => {
-    console.log("Playing: 'new question'");
+    console.log("Playing 'new question'");
     playNewSound();
-
     setTimeout(() => {
-      console.log("Playing: 'thinking'");
-      playThinkSound();
+      setStartThinkSound(true);
     }, 5200);
-  };
+  }, [playNewSound, qIndex]);
+
+  useEffect(() => {
+    if (!startThinkSound) return;
+    console.log("Playing 'thinking'");
+    playThinkSound();
+    setStartThinkSound(false);
+  }, [playThinkSound, startThinkSound]);
 
   const moveForward = (e: KeyboardEvent) => {
     console.log("Attempt moving forward");
@@ -47,15 +55,11 @@ const Scene = () => {
       window.removeEventListener("keydown", moveForward);
       setQIndex(qIndex + 1);
       setIsFirstClick(true);
-      nextQuestion();
     }
   };
 
   const onClick = () => {
-    if (isInitial) {
-      setIsInitial(false);
-      //initialStop();
-    } else stop();
+    thinkSoundExposedData.stop();
     setIsFirstClick(false);
     window.addEventListener("keydown", moveForward);
   };

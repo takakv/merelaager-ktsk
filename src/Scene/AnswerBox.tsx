@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import useSound from "use-sound";
 import { useQuestionStatus } from "./questions";
 
-import loseSound from "../assets/sounds/std_lose.mp3";
-import winSound from "../assets/sounds/std_win.mp3";
+import correctSound from "../assets/sounds/correct.mp3";
+import incorrectSound from "../assets/sounds/incorrect.mp3";
 import answerBox from "../assets/images/answer_box.png";
 
 interface AnswerBoxProps {
@@ -25,8 +25,8 @@ const AnswerBox = ({
   onHalfLifelineClick,
   onClick,
 }: AnswerBoxProps) => {
-  const [playLoseSound] = useSound(loseSound);
-  const [playWinSound] = useSound(winSound);
+  const [playLoseSound] = useSound(incorrectSound);
+  const [playWinSound] = useSound(correctSound);
 
   const [className, setClassName] = useState("");
 
