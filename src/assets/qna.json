@@ -24,6 +24,54 @@
     "enabled": true
   },
   {
+    "question": "Mis riigis elab Taaniel",
+    "answers": ["Luksemburg", "Šveits", "Eesti", "Prantsusmaa"],
+    "answerIndex": 3,
+    "enabled": true
+  },
+  {
+    "question": "Mitu raadiosaatjat on kambüüsis",
+    "answers": ["4", "2", "7", "6"],
+    "answerIndex": 3,
+    "enabled": true
+  },
+  {
+    "question": "Milline neist ei ole aerupaat laagris",
+    "answers": ["Koha", "Särg", "Säga", "Haug"],
+    "answerIndex": 2,
+    "enabled": true
+  },
+  {
+    "question": "Mitme liitrine boiler on kambüüsis",
+    "answers": ["16L", "22L", "18L", "12L"],
+    "answerIndex": 1,
+    "enabled": true
+  },
+  {
+    "question": "Kambüüsi kella juubeliaasta",
+    "answers": ["5a", "10a", "15a", "20a"],
+    "answerIndex": 3,
+    "enabled": true
+  },
+  {
+    "question": "Kambüüsi pruulikoja vapp",
+    "answers": ["JB", "EB", "BB", "GB"],
+    "answerIndex": 2,
+    "enabled": true
+  },
+  {
+    "question": "Mitu tulekustutit on kambüüsis",
+    "answers": ["0", "1", "2", "3"],
+    "answerIndex": 3,
+    "enabled": true
+  },
+  {
+    "question": "Kitarrivõimendi nimi",
+    "answers": ["Trännn...", "Tränn", "Trännnn....", "Trännnn"],
+    "answerIndex": 3,
+    "enabled": true
+  },
+  {
     "question": "MRSC tähendus",
     "answers": [
       "Maritime Surveillance Centre",
@@ -143,7 +191,7 @@
   },
   {
     "question": "Sinise lutsu nimi",
-    "answers": ["Lii", "Mai", "Kai", "Ene"],
+    "answers": ["Lii", "Mia", "Kai", "Ene"],
     "answerIndex": 3,
     "enabled": true
   },
@@ -230,7 +278,7 @@
   },
   {
     "question": "Mitu kellalööki on häirekell",
-    "answers": ["1+5634", "1+5436", "1+6584", "1+5432"],
+    "answers": ["1+5634", "1+5643", "1+5564", "1+5432"],
     "answerIndex": 1,
     "enabled": true
   },
@@ -254,7 +302,7 @@
   },
   {
     "question": "Mis aastal ostis Ahto jäätisemasina",
-    "answers": ["2019", "2020", "2018", "2021"],
+    "answers": ["2019", "2020", "2022", "2021"],
     "answerIndex": 4,
     "enabled": true
   },
