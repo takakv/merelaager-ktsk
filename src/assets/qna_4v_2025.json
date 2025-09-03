@@ -1,0 +1,338 @@
+[
+  {
+    "question": "Mis aastal toimus merelaager esimest korda Laokülas?",
+    "answers": ["1999", "1965", "1962", "1998"],
+    "answerIndex": 1,
+    "enabled": true
+  },
+  {
+    "question": "Mis aastal asutati MTÜ Noorte Mereklubi?",
+    "answers": ["1999", "1998", "1988", "2002"],
+    "answerIndex": 2,
+    "enabled": true
+  },
+  {
+    "question": "Mis on punase lutsu nimi?",
+    "answers": ["Lii", "Eia", "Eda", "Mia"],
+    "answerIndex": 2,
+    "enabled": true
+  },
+  {
+    "question": "Kus elab Martin",
+    "answers": ["Viljandis", "Saksamaal", "Rootsis", "Hollandis"],
+    "answerIndex": 4,
+    "enabled": true
+  },
+  {
+    "question": "Mis on Laoküla kõige uuem optimist",
+    "answers": ["Epp", "Lea", "Eda", "Dea"],
+    "answerIndex": 1,
+    "enabled": true
+  },
+  {
+    "question": "Mis on merelaagri kaatri nimi?",
+    "answers": ["Mullu", "Rghy-325", "Hambutu", "Smolnitsa"],
+    "answerIndex": 4,
+    "enabled": true
+  },
+  {
+    "question": "Kus on suurlaeva ülemine osa?",
+    "answers": ["Suurlaeva kõrval", "Kasvuhoone kõrval", "Mere põhjas", "Ahto tagaaias"],
+    "answerIndex": 1,
+    "enabled": true
+  },
+  {
+    "question": "Kui vana on Ahto?",
+    "answers": ["53", "56", "27", "62"],
+    "answerIndex": 2,
+    "enabled": true
+  },
+  {
+    "question": "Mida õpetab Leho väljaspool laagrit?",
+    "answers": ["Purjetamist", "Tennist", "Ujumist", "Kokkamist"],
+    "answerIndex": 1,
+    "enabled": true
+  },
+  {
+    "question": "Kes elab rannamajas?",
+    "answers": ["Rõgabert", "Martin", "Tauri", "Taaniel"],
+    "answerIndex": 3,
+    "enabled": true
+  },
+  {
+    "question": "Milline neist saartest on suurim?",
+    "answers": ["Ruhnu", "Osmussaare", "Suur-Pakri", "Väike-Pakri"],
+    "answerIndex": 4,
+    "enabled": true
+  },
+  {
+    "question": "Mis on hädaolukorra kell?",
+    "answers": ["1+6543", "1+5634", "1+5643", "1+4365"],
+    "answerIndex": 3,
+    "enabled": true
+  },
+  {
+    "question": "Kui kaugele on näha signaalraketti öösel?",
+    "answers": ["5km", "10km", "15km", "20km+"],
+    "answerIndex": 4,
+    "enabled": true
+  },
+  {
+    "question": "MRSC tähendus",
+    "answers": [
+      "Maritime Surveillance Centre",
+      "Maritime Rescue Sub-Centre",
+      "Maritime Rescue Surveillance Centre",
+      "Maritime Rescue & Search Centre"
+    ],
+    "answerIndex": 2,
+    "enabled": true
+  },
+  {
+    "question": "Mis aastal valmis Merelaagri uus koduleht",
+    "answers": ["2019", "2018", "2021", "2020"],
+    "answerIndex": 4,
+    "enabled": true
+  },
+  {
+    "question": "Mis värvi olid Taanieli juuksed aastal 2023",
+    "answers": ["Pruunid", "Puna-valged", "Roosad", "Blondid"],
+    "answerIndex": 1,
+    "enabled": true
+  },
+  {
+    "question": "Mida neist ei ole lubatud laagrisse kaasa võtta?",
+    "answers": ["Mootorsaag", "Playstation", "Säraküünal", "Õed-vennad"],
+    "answerIndex": 3,
+    "enabled": false
+  },
+  {
+    "question": "Millal oli Ahto Aasta Mereharija?",
+    "answers": ["1979", "2019", "2025", "1992"],
+    "answerIndex": 2,
+    "enabled": true
+  },
+  {
+    "question": "Mis on kambüüsi ämbliku nimi?",
+    "answers": ["Muki", "Siim", "Tom Holland", "Kusti"],
+    "answerIndex": 4,
+    "enabled": true
+  },
+  {
+    "question": "Rannamaja ehitati ümber aastal",
+    "answers": ["2018", "2019", "2017", "2016"],
+    "answerIndex": 1,
+    "enabled": true
+  },
+  {
+    "question": "Milles magasid lapsed esimesel Laoküla Merelaagril?",
+    "answers": ["Kämpades", "Sõjaväetelkides", "Isiklikes telkides", "Ahto keldris"],
+    "answerIndex": 2,
+    "enabled": true
+  },
+  {
+    "question": "Mis aastal oli laagrisärkide värv punane?",
+    "answers": ["1999", "2019", "2016", "2020"],
+    "answerIndex": 4,
+    "enabled": true
+  },
+  {
+    "question": "Mis on Epu vana nimi?",
+    "answers": ["Anu", "Hyuck", "Iyru", "Kihn"],
+    "answerIndex": 1,
+    "enabled": true
+  },
+  {
+    "question": "Esimene ehitis laagris oli",
+    "answers": ["Rannamaja", "Suurlaev", "Küna", "Vetsud"],
+    "answerIndex": 4,
+    "enabled": true
+  },
+  {
+    "question": "JRCC tähendab",
+    "answers": [
+      "Joint Rescue and Command Centre",
+      "Joint Resolve and Coordination Centre",
+      "Joint Rescue and Coordination Centre",
+      "Joint Rescue and Central Command"
+    ],
+    "answerIndex": 3,
+    "enabled": true
+  },
+  {
+    "question": "Kes neist ei ole osa ristimistseremooniast?",
+    "answers": ["Näkineiud", "Merekurat", "Neptun", "Poseidon"],
+    "answerIndex": 4,
+    "enabled": true
+  },
+  {
+    "question": "Mitu magamiskohta on laagriplatsil?",
+    "answers": ["48", "42", "13", "45"],
+    "answerIndex": 1,
+    "enabled": true
+  },
+  {
+    "question": "Mis on kõige suurem number vestidel?",
+    "answers": ["420", "690", "101", "777"],
+    "answerIndex": 4,
+    "enabled": true
+  },
+  {
+    "question": "Milline neist ei ole Merelaagri sponsor?",
+    "answers": ["EMSA", "Tallinna linn", "Tallink", "Lääne-Harju vald"],
+    "answerIndex": 3,
+    "enabled": true
+  },
+  {
+    "question": "Dea algustäht on",
+    "answers": ["D", "Vastus 'A'", "Vastus 'D'", "A"],
+    "answerIndex": 1,
+    "enabled": true
+  },
+  {
+    "question": "Mida neist lubasid ristimisel?",
+    "answers": ["Alati isuga süüa põhjakõrbenud putru", "Sokke tagurpidi kanda", "Merel alati reegleid jälgida", "Kõik küpsised laual ära süüa"],
+    "answerIndex": 1,
+    "enabled": true
+  },
+  {
+    "question": "Kuidas anda aerupaadiga merel teada, et oled hädas?",
+    "answers": ["Kiljuda", "Kahe käega lehvitada", "Tõused püsti", "Ujud kaldale"],
+    "answerIndex": 3,
+    "enabled": true
+  },
+  {
+    "question": "Muhu merelaager lõpetas selle tõttu tegevuse",
+    "answers": [
+      "Sõjaväebaasi ehitamine",
+      "Eelarve ületamine",
+      "Laevahukk",
+      "Maade tagastamine"
+    ],
+    "answerIndex": 4,
+    "enabled": true
+  },
+  {
+    "question": "Millisele optimistile käib liblika puri?",
+    "answers": [
+      "Anu",
+      "Epp",
+      "Lea",
+      "Dea"
+    ],
+    "answerIndex": 1,
+    "enabled": true
+  },
+  {
+    "question": "Mis aastal sai Martin juhatajaks?",
+    "answers": ["2020", "2021", "2022", "2023"],
+    "answerIndex": 3,
+    "enabled": true
+  },
+  {
+    "question": "Punane putka lammutati aastal",
+    "answers": ["2019", "2020", "2021", "2018"],
+    "answerIndex": 2,
+    "enabled": true
+  },
+  {
+    "question": "Mereleksikoni autor on",
+    "answers": [
+      "Navigare OÜ",
+      "Merendusterminoloogia-komisjon",
+      "Eesti Mereakadeemia",
+      "Eesti Entsüklopeediakirjastus"
+    ],
+    "answerIndex": 4,
+    "enabled": true
+  },
+  {
+    "question": "Leho esimene aasta juhatajana oli",
+    "answers": ["2011", "2012", "2013", "2014"],
+    "answerIndex": 3,
+    "enabled": false
+  },
+  {
+    "question": "Lea toodi laagrisse aastal",
+    "answers": ["2016", "2017", "2018", "2015"],
+    "answerIndex": 2,
+    "enabled": true
+  },
+  {
+    "question": "Mis aastal tulid praegused laste kämpad?",
+    "answers": ["2017", "2018", "2019", "2020"],
+    "answerIndex": 2,
+    "enabled": false
+  },
+  {
+    "question": "Mitu vahetust oli esimesel Merelaagril?",
+    "answers": ["1", "2", "3", "4"],
+    "answerIndex": 2,
+    "enabled": false
+  },
+  {
+    "question": "Simiste merelaager lõpetas tegevuse aastal",
+    "answers": ["1989", "1998", "1972", "1981"],
+    "answerIndex": 1,
+    "enabled": true
+  },
+  {
+    "question": "Mitu juuksevärvi on Taanielil laagris olles olnud",
+    "answers": ["2", "3", "4", "5"],
+    "answerIndex": 2,
+    "enabled": false
+  },
+  {
+    "question": "Mis on põhjaläinud kadeti nimi?",
+    "answers": ["67", "Leht 24", "Part", "Eru"],
+    "answerIndex": 3,
+    "enabled": true
+  },
+  {
+    "question": "Kus kohas toimus esimest korda merelaager?",
+    "answers": ["Pirital", "Laokülas", "Hiiumaal", "Pärnumaal"],
+    "answerIndex": 4,
+    "enabled": false
+  },
+  {
+    "question": "Mis on Martini purjelaua purje suurus",
+    "answers": ["5.7m^2", "8.5m^2", "Martinil on kaks purje", "4.1m^2"],
+    "answerIndex": 1,
+    "enabled": true
+  },
+  {
+    "question": "Mis kell tõusevad kasvatajad",
+    "answers": ["8:25", "Pool tundi enne lapsi", "7:30", "8"],
+    "answerIndex": 2,
+    "enabled": false
+  },
+  {
+    "question": "Mis aastal ostis Ahto jäätisemasina",
+    "answers": ["2019", "2020", "2022", "2021"],
+    "answerIndex": 4,
+    "enabled": true
+  },
+  {
+    "question": "Mis aastal valiti merelaager aasta noortelaagriks",
+    "answers": ["2017", "2018", "2016", "2019"],
+    "answerIndex": 2,
+    "enabled": true
+  },
+  {
+    "question": "Kuidas saadakse abikasvatajaks",
+    "answers": [
+      "Tutvuste kaudu",
+      "Võites selle mängu",
+      "Pugedes",
+      "Ei tea isegi"
+    ],
+    "answerIndex": 4,
+    "enabled": true
+  },
+  {
+    "question": "Kes projekteeris uue sauna",
+    "answers": ["Saunapoisid OÜ", "Ahto", "Lempa (Ahto vend)", "Saunamaailm"],
+    "answerIndex": 2,
+    "enabled": true
+  }
+]
